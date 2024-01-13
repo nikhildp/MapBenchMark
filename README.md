@@ -14,4 +14,5 @@ Change parameters in src/test/java/com/nikhildp/benchmark/BenchMarkTest.java:15
 
 
 ## Test output sample
-![image](https://github.com/nikhildp/MapBenchMark/assets/20813168/86322779-5470-4ce7-8fa9-89e2e4c889ca)
+![image](https://github.com/nikhildp/MapBenchMark/assets/20813168/3b368bde-1c37-4dc7-aca6-770aa791a4d9)
+

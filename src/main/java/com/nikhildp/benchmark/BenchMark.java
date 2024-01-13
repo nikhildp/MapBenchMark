@@ -74,7 +74,7 @@ public class BenchMark {
     public static void summary(List<Future<Long>> fa) {
         List<Long> a = toLongList(fa);
         double avg = avg(a);
-        System.out.printf("Average exec time: %s ms", String.format("%6.3e",avg));
+        System.out.printf("Average exec time: %s ns", String.format("%6.3e",avg));
         System.out.printf("\t\t\t\tStandard Deviation: %s\n" , String.format("%6.3e",std(a, avg)));
         fa.clear();
     }

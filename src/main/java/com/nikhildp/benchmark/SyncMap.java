@@ -22,14 +22,14 @@ public class SyncMap extends TestMap{
     public void putId() throws InterruptedException {
         synchronized (map){
             map.put(Thread.currentThread().getId(), "something");
-            Thread.sleep(ThreadLocalRandom.current().nextLong(50));
+            Thread.sleep(ThreadLocalRandom.current().nextLong(delay));
         }
     }
 
     public void removeId() throws InterruptedException {
         synchronized (map){
             map.remove(Thread.currentThread().getId());
-            Thread.sleep(ThreadLocalRandom.current().nextLong(50));
+            Thread.sleep(ThreadLocalRandom.current().nextLong(delay));
         }
     }
 }

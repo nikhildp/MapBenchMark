@@ -19,8 +19,8 @@ class BenchMarkTest {
                 Arguments.of(60, 1000, 0),
                 Arguments.of(90, 1000, 0),
                 Arguments.of(90, 1000, 10),
-                Arguments.of(90, 1000, 30),
-                Arguments.of(90, 1000, 50)
+                Arguments.of(90, 1000, 20),
+                Arguments.of(90, 1000, 30)
         );
     }
 

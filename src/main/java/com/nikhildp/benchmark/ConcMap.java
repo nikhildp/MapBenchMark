@@ -21,11 +21,11 @@ public class ConcMap extends TestMap {
 
     public void putId() throws InterruptedException {
             map.put(Thread.currentThread().getId(), "something");
-            Thread.sleep(ThreadLocalRandom.current().nextLong(50));
+            Thread.sleep(ThreadLocalRandom.current().nextLong(delay));
     }
 
     public void removeId() throws InterruptedException {
             map.remove(Thread.currentThread().getId());
-            Thread.sleep(ThreadLocalRandom.current().nextLong(50));
+            Thread.sleep(ThreadLocalRandom.current().nextLong(delay));
     }
 }
